@@ -19,6 +19,7 @@ public class EmpController {
     @RequestMapping("/empList")
     public Object getEmpList(){
         System.out.println(111);
+        System.out.println(222);
         return empService.getEmpList();
     }
 
